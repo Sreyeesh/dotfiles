@@ -1,1 +1,3 @@
-alias activate_gcal='source ~/projects/google_calendar_automation/activate_project.sh'
+alias dotedit="vim ~/dotfiles/"
+
+alias dotcommit='cd ~/dotfiles && git add . && git commit -m "chore: update dotfiles" && git push'
